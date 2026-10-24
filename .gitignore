@@ -1,0 +1,15 @@
+node_modules/
+.next/
+.env
+.env.local
+.env.*.local
+
+# Real recordings must never be committed (only synthetic fixtures, added deliberately)
+ai-fixtures/*.webm
+ai-fixtures/*.mp4
+ai-fixtures/*.m4a
+ai-fixtures/*.mp3
+ai-fixtures/*.wav
+ai-fixtures/*.ogg
+
+ai-fixtures/downloaded/
